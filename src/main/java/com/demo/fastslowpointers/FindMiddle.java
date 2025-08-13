@@ -1,5 +1,7 @@
 package com.demo.fastslowpointers;
 
+import com.demo.ListNode;
+
 /**
  * Problem: Find the middle node of a linked list
  * 

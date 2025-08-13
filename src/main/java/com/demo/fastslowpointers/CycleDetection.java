@@ -1,5 +1,7 @@
 package com.demo.fastslowpointers;
 
+import com.demo.ListNode;
+
 /**
  * Problem: Detect if a linked list has a cycle
  * 

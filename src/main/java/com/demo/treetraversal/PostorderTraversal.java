@@ -159,7 +159,7 @@ public class PostorderTraversal {
     private static void compareAllTraversals(TreeNode root) {
         System.out.println("\n=== 🎯 Traversal Comparison ===");
         
-        List<Integer> preorder = PreorderTraversal.preorderTraversal_RootLeftRight(root);
+        // List<Integer> preorder = PreorderTraversal.preorderTraversal_RootLeftRight(root); // TODO: Create PreorderTraversal class
         List<Integer> inorder = InorderTraversal.inorderTraversal_LeftRootRight(root);
         List<Integer> postorder = postorderTraversal_ChildrenBeforeParents(root);
         
@@ -169,7 +169,7 @@ public class PostorderTraversal {
         System.out.println("         / \\   / \\");
         System.out.println("        1   3 5   7\n");
         
-        System.out.println("PREorder  (Root-Left-Right):  " + preorder);
+        // System.out.println("PREorder  (Root-Left-Right):  " + preorder); // TODO: Uncomment when PreorderTraversal is available
         System.out.println("          Parent → Children\n");
         
         System.out.println("INorder   (Left-Root-Right):  " + inorder);

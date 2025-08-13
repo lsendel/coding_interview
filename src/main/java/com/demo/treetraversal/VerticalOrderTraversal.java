@@ -207,10 +207,10 @@ public class VerticalOrderTraversal {
         System.out.println("\n=== 📊 Vertical vs Level Order ===");
         
         List<List<Integer>> vertical = verticalOrderTraversal_NewspaperColumns(root);
-        List<List<Integer>> level = LevelOrderTraversal.levelOrderTraversal_FloorByFloor(root);
+        // List<List<Integer>> level = LevelOrderTraversal.levelOrderTraversal_FloorByFloor(root); // TODO: Create LevelOrderTraversal class
         
         System.out.println("Vertical Order (by column): " + vertical);
-        System.out.println("Level Order (by row):       " + level);
+        // System.out.println("Level Order (by row):       " + level); // TODO: Uncomment when LevelOrderTraversal is available
         System.out.println("\nDifference: Vertical groups by X-coordinate, Level groups by Y-coordinate!");
     }
     

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d669e365-4a1d-4e3c-9155-3c6bceb7df4d" name="Changes" comment="" />
+    <list default="true" id="d669e365-4a1d-4e3c-9155-3c6bceb7df4d" name="Changes" comment="Init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/fastslowpointers/CycleDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/fastslowpointers/CycleDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/fastslowpointers/FindMiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/fastslowpointers/FindMiddle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/linkedlist/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/linkedlist/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/treetraversal/PostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/treetraversal/PostorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/treetraversal/VerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/treetraversal/VerticalOrderTraversal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +32,9 @@
     &quot;accountId&quot;: &quot;4f855968-21d5-4d68-9951-bb4fb0aee482&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -35,12 +45,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.GroupAnagrams.executor": "Run",
     "Application.Main.executor": "Run",
+    "Maven.coding-interview [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.coding-interview [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/lsendel/IdeaProjects/coding_interview",
@@ -52,7 +65,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GroupAnagrams">
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.array.GroupAnagrams" />
+      <module name="coding-interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Main" />
       <module name="coding-interview" />
@@ -77,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,11 +124,24 @@
       <option name="presentableId" value="Default" />
       <updated>1755114833376</updated>
       <workItem from="1755114834792" duration="3949000" />
-      <workItem from="1755126969421" duration="417000" />
+      <workItem from="1755126969421" duration="1153000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <option name="closed" value="true" />
+      <created>1755127480326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755127480326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>
